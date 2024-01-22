@@ -1,0 +1,793 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+    
+}
+body{
+   
+    background-color: black;
+}
+
+/*Navbar.css*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+   background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.navbar-bg {
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+.navbar1 a {
+    color: white;
+    font-size: 20px;
+}
+.navbar1 a:hover{
+    color: palevioletred;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+.search input {
+    border: 2px solid white;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a.active {
+    color: palevioletred !important;
+}
+
+
+.humburger {
+    display: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.logo .fa-solid {
+    font-size: 25px;
+    color: palevioletred;
+cursor: pointer;
+}
+.lightmood{
+    margin-top: 0;
+   margin-bottom: 20px;  
+}
+
+.menu {
+    border-radius: 30px;
+    position: relative;
+    
+    
+}
+.shop1-1{
+    border: 2px solid white;
+}
+
+.shop {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.shop .fa-xmark {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.shop1 {
+    width: 420px;
+    height: 300px;
+    font-size: 20px;
+   
+}
+
+.shop1 h4 {
+    text-align: center;
+}
+
+.inform {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 20px;
+    position: relative;
+  
+}
+
+.trash .fa-trash {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.roimge,
+.roproduct {
+    width: 50%;
+    height: 100%;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+.roproduct button{
+    width: 50px;
+   
+}
+
+.roimge img {
+    width: 100%;
+    height: 80%;
+    margin: 10px;
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+/* .quantity h4{
+   width: 20px;
+   height: 10px;
+   border: 2px solid black;
+   padding: 0px 10px 10px 5px;
+   background-color: palevioletred;
+  font-size: 22px;
+  border-radius: 10px;
+} */
+.total .total{
+    color: black;
+    position: fixed;
+    top: 10%;
+   left: 70%;
+}
+
+/*Home.css*/
+.home{
+    padding-top: 5%;
+}
+.home .owl-theme {
+    width: 100%;
+    height: 650px;
+
+}
+
+.home .item {
+    width: 100%;
+    height: 650px;
+
+}
+
+.home .item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.home .owl-theme .owl-dots .owl-dot span:hover {
+    background-color: palevioletred;
+   
+}
+
+.home .owl-carousel {
+    position: relative;
+}
+
+.home .owl-prev span {
+    font-size: 80px;
+    position: absolute;
+    top: 55%;
+    color: black;
+    background-color: transparent;
+}
+
+.home .owl-prev span:hover {
+    color: palevioletred;
+}
+
+.home .owl-next span {
+    font-size: 80px;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    color: black;
+    background: transparent;
+}
+
+.home .owl-next span:hover {
+    color: palevioletred;
+}
+
+/*Does.css*/
+.does {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: white;
+  
+
+}
+
+.does h3 {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px palevioletred;
+    margin-top: 180px;
+
+}
+
+.does1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.does2 {
+    width: 33%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+}
+
+.does2:hover {
+    box-shadow: rgba(197, 197, 226, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.does2 img {
+    width: 70%;
+    height: 60%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.does2 h5 {
+    font-size: 20px;
+    text-shadow: 3px 2px 2px gray;
+    color: white;
+}
+
+.does2 button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* About.css*/
+.about {
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about1 {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    position: relative;
+    margin-top: 20vh;
+}
+
+.about1 h3 {
+    font-weight: 800;
+    margin-top:20%;
+}
+
+.about1 img {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.about button {
+    padding: 8px;
+    margin: 10px;
+    background-color: palevioletred;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.photo {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 30%;
+    top: 0;
+
+}
+
+.photo img {
+    width: 100%;
+}
+
+/*Hot.css*/
+.superhot{
+    width: 100%;
+ 
+}
+.hot1{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   
+    margin-top: 5%;
+}
+.hot h2{
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px palevioletred;
+}
+.hot1 .Item img{
+    width: 800px;
+    height: 500px;
+}
+
+
+/*Product.css*/
+.productmain {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 8px palevioletred;
+    color: white;
+}
+
+.productmain h3 {
+    padding-top: 15vh;
+    font-size: 40px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 450px 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 20px;
+    color: white;
+
+}
+
+.product1 {
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.product1:hover {
+    box-shadow: rgba(93, 50, 91, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.product1 img {
+    width: 80%;
+    height: 250px;
+
+}
+
+.product1 button {
+    width: 80px;
+    padding: 7px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+}
+
+.view {
+    text-align: center;
+    padding: 10px;
+    width: 100px auto;
+    font-weight: 700;
+    margin: 25px 45% 20px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.fa-heart{
+    color: whitesmoke;
+    cursor: pointer;
+}
+.product1 .fa-heart{
+    color: white;
+    margin: 10px; 
+ font-size: 26px;
+}
+.product1 .fa-heart:hover{
+    color: palevioletred ;
+   
+}
+/*Company.css*/
+.company{
+    width: 90%;
+    display: flex;
+    align-items: center;
+   margin:50px 0px 0px 73px ;
+   background-color: white;
+ border-radius: 25px;
+}
+.company .owl-theme {
+    width: 100%;
+    height: 150px;
+
+}
+ .company .item h1{
+    font-size: 30px;
+    padding: 20px;
+    color:black;
+    text-align: center;
+   
+}
+.company .item{
+   margin-top: 30px;
+}
+.company .owl-prev span {
+   display: none;
+}
+.company .owl-next span {
+    display: none;
+}
+
+/*Garllery.css*/
+.garllery {
+    width: 100%;
+    height: 500px;
+    padding-top: 15vh;
+}
+
+.garllery1 h1 {
+    color: white;
+    text-align: center;
+    margin: 15px;
+    text-shadow: 2px 4px 8px palevioletred;
+    font-size: 30px;
+}
+.garllery.owl-theme {
+    width: 100%;
+    height: 650px;
+
+}
+
+.garllery .item {
+    width: 100%;
+    height: 650px;
+
+}
+
+.garllery .item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.garllery.owl-carousel {
+    position: relative;
+}
+
+.garllery .owl-prev span {
+    font-size: 80px;
+    position: absolute;
+    top: 45%;
+    color: ghostwhite;
+    background-color: transparent;
+}
+
+.garllery .owl-next span {
+    font-size: 80px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    color:ghostwhite;
+    background: transparent;
+}
+
+
+
+/*contant.css*/
+label {
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-top: 30px;
+    font-weight: 800;
+}
+
+form {
+    display: flex;
+    padding: 6rem 1rem;
+    flex-direction: column;
+    margin: auto;
+    max-width: 600px;
+   
+}
+
+form input,
+form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(225, 225, 255, 0.1);
+    border-color: rgba(225, 225, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+}
+
+form button {
+    width: 50%;
+    height: 40px;
+    margin: 10px auto;
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form .fa-eye{
+    position: fixed;
+    right: 33%;
+    top: 40.5%;
+}
+
+/*Footer.css*/
+.footer1 h1 {
+    text-align: center;
+    margin: 100px 30px 30px 70px;
+    text-shadow: 2px 2px 2px palevioletred;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+
+
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/*foot.css*/
+.foot {
+    width: 80%;
+    height: 500px;
+    margin: 30px auto ;
+    display: grid;
+    grid-template-columns: 25% 35%;
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.foot1 p {
+    margin: 10px;
+}
+
+.foot1 h3,
+h2 {
+    letter-spacing: 2px;
+}
+
+
+
+@media screen and (max-width:992px) {
+
+    .navbar2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        left: -110%;
+        z-index: -3;
+        transition: 0.3s;
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    .nav {
+        flex-direction: column;
+      
+    }
+
+    .navbar2.active {
+        left: 0;
+    }
+
+    .navbar2 li a {
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+    .humburger {
+        display: flex;
+        font-size: 22px;
+        color: white;
+
+    }
+
+    .nav li input {
+        padding: 10px;
+    }
+   
+    .about1 h3 {
+        font-weight: 400;
+   
+    margin-top:40%;
+    }
+   
+    .hot h2{
+        margin-top: 13%;
+    }
+    .company{
+        width: 90%;
+        display: flex;
+        align-items: center;
+       margin:10px 0px 0px 25px ;
+       background-color: white;
+     border-radius: 25px;
+    }
+    .company .item h1{
+        font-size: 18px;
+        padding: 20px;
+        color: black;
+        text-align: center;
+       
+    }
+    
+
+
+}
+@media screen and (max-width:600px) {
+    .navbar2 {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        left: -110%;
+        z-index: -3;
+        transition: 0.3s;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    .navbar1 h1{
+        margin-left: 20px;
+    }
+    .about {
+        width: 100%;
+        height: 500px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .about1 h3 {
+        font-weight: 400;
+    font-size: 10px;
+    margin-top: 100%;
+    }
+    .about button {
+     font-weight: 200;
+        cursor: pointer;
+        border: none;
+    }
+    .productmain h3 {
+      text-align:none;
+        font-size: 30px;
+    }
+    
+    .view{
+       margin-top:20px;
+       margin-left:40%;
+    }
+    .superhot{
+        width: 90%;
+     margin-left: 25px;
+    }
+    .hot h2{
+        margin-top: 100px;
+    }
+    .hot1 .Item img{
+        width: 300px;
+        height: 500px;
+    }
+    .company{
+        width: 90%;
+        height: 200px;
+        
+    }
+    .company .item h1{
+        font-size: 18px;
+        padding: 20px;
+        color: black;
+        text-align: center;
+       
+    }
+    .foot {
+        width: 100%;
+        height: 500px;
+        margin-top: 100px ;
+       gap: 20px 20px;
+    }
+    form{
+        position: relative;
+    }
+    form .fa-eye{
+        position: fixed;
+        right: 50px;
+        top: 40.5%;
+    }
+}
