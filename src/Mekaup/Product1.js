@@ -20,18 +20,16 @@ const Product1 = ({ search }) => {
    
     const [hide, sethide] = useState(6)
     const slice = data.slice(0, hide)
-    function visible() {
-        sethide(hide + hide)
-    } 
+     function visible(){
+    if(hide <=6){
+        sethide(hide+6)
+    }
+    else{
+        sethide(!hide + 6)
+    }
+   }
 
-    const [anchorEl, setAnchorEl] = React.useState(null);
-    const open = Boolean(anchorEl);
-    const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
-    const handleClose = () => {
-        setAnchorEl(null);
-    };
+   
 
     let filterdatas=slice.filter((ab)=>ab.productname.toLowerCase().includes(search))
     console.log(filterdatas)
@@ -60,7 +58,7 @@ const Product1 = ({ search }) => {
                 }
 
             </div>
-            <button className='view' onClick={visible} >View More <span onClick={handleClick}> <i class="fa-solid fa-xmark" onClick={handleClose}></i></span></button><br />
+            <button className='view' onClick={visible} >View More <span> <i class="fa-solid fa-xmark"></i></span></button><br />
         </div>
         
         
